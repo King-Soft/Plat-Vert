@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+}
+
+.font_family_1 {
+    font-family: 'Courgette', cursive;
+}
+
+.font_size_1 {
+    font-size: clamp(3rem, 10vw, 6rem);
+    font-weight: bold;
+    color: #FFC107;
+    text-transform: uppercase;
+}
+
+.font_size_2 {
+    font-size: clamp(1.5rem, 7vh, 3rem);
+    font-weight: bold;
+    color: #FFC107;
+}
+
+.font_size_3 {
+    font-size: clamp(1rem, 5vh, 1.5rem);
+    font-weight: bold;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.slide-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/images/1660176700_33-kartinkin-net-p-oboi-s-listochkami-krasivo-38.jpg");
+    background-size: cover;
+}
+
+.logo {
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 200px;
+    height: 200px;
+}
+
+.logo2 {
+    bottom: 50px;
+    left: 80%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 200px;
+    height: 200px;
+}
+
+.logo3 {
+    bottom: 50px;
+    left: 150px;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 200px;
+    height: 200px;
+}
+
+.logo4 {
+    top: 50px;
+    left: 50px;
+    z-index: 10;
+    width: 200px;
+    height: 200px;
+}
+
+.slide-2 {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/1660176700_33-kartinkin-net-p-oboi-s-listochkami-krasivo-38.jpg');
+    background-size: cover;
+
+}
+
+.slide-2 .slide_bar {
+    background-image: url('assets/images/f65c8f04bdd4916f136398bdab75cb42.jpg');
+    background-position: right bottom;
+    background-size: cover;
+}
+
+.slide-3 {
+    background-image: url('assets/images/background1.png');
+}
+
+
+
+.slide-3 .img1 {
+    background-image: url('assets/images/14.jpg');
+    background-size: cover;
+}
+
+.P3 {
+    pointer-events: none;
+    animation: animation-p3 5s infinite ease-in-out alternate-reverse;
+    animation-delay: 1000ms;
+}
+
+.P5 {
+    pointer-events: none;
+    animation: animation-p5 5s infinite ease-in-out alternate-reverse;
+    animation-delay: 1000ms;
+}
+
+@keyframes animation-p3 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-100px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes animation-p5 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(100px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+#slide-heroz-1 {
+    background-image: url('assets/images/jus1.jpg');
+    background-size: cover;
+}
+
+#slide-heroz-2 {
+    background-image: url('assets/images/jus2.png');
+    background-size: cover;
+}
+
+#slide-heroz-3 {
+    background-image: url('assets/images/jus3.jpg');
+    background-size: cover;
+}
+
+#slide-heroz-4 {
+    background-image: url('assets/images/restaurant2.jpg');
+    background-size: cover;
+}
+
+#slide-heroz-5 {
+    background-image: url('assets/images/image_4_ab34cfbd-009e-4b63-b421-1af7dbb3cffa.jpg');
+    background-size: cover;
+}
+
+#slide-heroz-6 {
+    background-image: url('assets/images/1659844929_52-kartinkin-net-p-fon-dlya-prezentatsii-yeda-krasivo-53.png');
+    background-size: cover;
+}
+
+#black-screen {
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.slide_col_1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/9866d3b7dd971f3a0d773f7487a3504d.jpg');
+    background-size: cover;
+    background-position: center left;
+}
+
+.slide_col_2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/green-pasta-with-holly-sb4jnp5x98tmuk3x.jpg');
+    background-size: cover;
+    background-position: center right;
+}
+
+.slide_col_3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/9866d3b7dd971f3a0d773f7487a3504d.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.slide_col_4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/Gratin-de-courgettes-et-pommes-de-terre-WW-990x660.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.slide_col_5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/images/au-gratin.png');
+    background-size: cover;
+    background-position: center right;
+}
+
+.slide_col_6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/potato-main-dishes-luxury-need-to-make-a-ve-able-better-turn-it-into-a-gratin-recipe-of-potato-main-dishes.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.slide_col_7 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/05fe0459d781df48216dea7256bf9d68.jpg');
+    background-size: cover;
+    background-position: center left;
+}
+
+.slide_col_8 {
+    background-image: url('assets/images/05fe0459d781df48216dea7256bf9d68.jpg');
+    background-size: cover;
+    background-position: center left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.banner .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.banner .img-2 {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
+    width: 600px;
+    pointer-events: none;
+    animation: prodact 3s infinite ease-in-out alternate-reverse;
+}
+
+.P1 {
+    pointer-events: none;
+    animation: animation-p1 20s infinite ease-in-out alternate-reverse;
+    animation-delay: 1000ms;
+}
+
+.P1-title {
+    pointer-events: none;
+    animation: animation-p1-title 5s infinite ease-in-out alternate-reverse;
+    animation-delay: 1000ms;
+}
+
+.P4 img {
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    animation: animation-p4 5s infinite ease-in-out alternate-reverse;
+}
+
+
+@keyframes animation-p1-title {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(0px) translateX(10%);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+@keyframes animation-p1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes prodact {
+    0% {
+        transform: translateY(0px) translateX(50%);
+    }
+
+    50% {
+        transform: translateY(-20px) translateX(-50%);
+    }
+
+    100% {
+        transform: translateY(0px) translateX(-100%);
+    }
+}
+
+@keyframes animation-p4 {
+    0% {
+        transform: rotate(0deg) translate(-50%, -50%);
+    }
+
+    50% {
+        transform: rotate(360deg) translate(-50%, -50%);
+    }
+
+    100% {
+        transform: rotate(0deg) translate(-50%, -50%);
+    }
+}
+
+.banner .content {
+    position: relative;
+    z-index: 10;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.banner .content p {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.discription {
+    background-color: rgb(255, 12, 12);
+}
+
+.banner .image {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 4rem;
+    top: 8rem;
+}
+
+.banner .image img {
+    width: 100%;
+    height: 100%;
+    /* transition:  all 4s ease-in-out;
+    transform: rotate(380deg);  */
+}
+
+.content .container {
+    position: relative;
+
+    width: 700px;
+    height: 700px;
+
+}
+
+.container .produit {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: blue;
+
+    border: #fff solid 5px;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+#produit_1 {
+    left: 36%;
+    top: 20%;
+}
+
+#produit_2 {
+    left: 15%;
+    top: 42%;
+
+}
+
+#produit_3 {
+    left: 57%;
+    top: 42%;
+
+}
+
+.content .category {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    border: #fff solid 5px;
+    z-index: 2;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%)
+}
+
+.content .category img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .produit img {
+    width: 150%;
+    height: 150%;
+    transform: rotate(-45deg);
+}
+
+#content-price {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
